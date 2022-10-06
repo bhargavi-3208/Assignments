@@ -1,0 +1,32 @@
+h1{
+    color: black;
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.parent{
+    max-width: 620px;
+    height:600px;
+    box-shadow: 5px 5px 4px black;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+
+}
+.child{
+    width:190px;
+    box-shadow: 2px 2px 4px black;
+    margin:5px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+}
+body{
+    background-color: gray;
+}

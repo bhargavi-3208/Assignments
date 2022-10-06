@@ -1,0 +1,31 @@
+h1{
+    color: red;
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 6px yellow;
+    letter-spacing: 2px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    line-height: 20px;
+}
+
+#img1{
+    float: left;
+}
+
+#img2{
+    float:right;
+}
+
+#img3{
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: sandybrown;
+}

@@ -1,0 +1,33 @@
+h1{
+    color: black;
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    background: lightgray;
+    border-radius: 2px;
+    padding:20px;
+    margin: 50px;
+    text-align: center;
+    color: black;
+}
+.box1{
+    background-color: rgb(30, 101, 255);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    margin: 10px;
+    border-radius: 4px;
+}
+.box2{
+    background-color: rgb(144, 238, 152);
+    color: seagreen;
+    text-align: center;
+    border-radius: 4px;
+    padding:1px;
+}

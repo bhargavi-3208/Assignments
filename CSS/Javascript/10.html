@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+    <style>
+        div.parent {
+            display: flex;
+            margin: 80px;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        div.child{
+            width:400px;
+            height:200px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 7px black;
+            text-align: center;
+            display:flexbox;
+            flex-direction: column;
+            padding-top: 25px;
+        }
+        div.child1{
+            width:400px;
+            height:200px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 7px black;
+            text-align: center;
+            display:flexbox;
+            flex-direction: column;
+            padding-top: 25px;
+        }
+        button{
+            background-color: blueviolet;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+            <label for="n1">Enter first number</label>
+            <input type="number" name="" id="n1">
+            <br><br>
+            <label for="n2">Enter second number</label>
+            <input type="number" name="" id="n2">
+            <br><br>
+            <button id="big">Find big</button>
+    
+            <h4 class="result"></h4>
+        </div>
+         <div class="child">
+            <label for="a">First no</label>
+            <input type="number" name="" id="a">
+            <br><br>
+            <label for="b">Second no</label>
+            <input type="number" name="" id="b">
+            <br><br>
+            <label for="c">Third no</label>
+            <input type="number" name="" id="c">
+            <br><br>
+            
+            <button id="large">Find large</button>
+    
+            <h4 class="answer"></h4>
+         </div>
+         <div class="child1">
+            <label for="x1">Enter first number</label>
+            <input type="number" name="" id="x1">
+            <br><br>
+            <label for="x2">Enter second number</label>
+            <input type="number" name="" id="x2">
+            <br><br>
+            <button id="even">Even no</button>
+    
+            <h4 class="result"></h4>  
+         </div>
+    </div>
+    
+    <script src="js14.js"></script>
+</body>
+</html>
